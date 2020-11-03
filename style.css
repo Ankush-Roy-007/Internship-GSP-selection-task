@@ -1,0 +1,13 @@
+.card{
+    margin: 10px;;
+}
+.row{
+    align-items: center;
+    justify-content: center;
+}
+.update{
+    font-size: 13px;
+}
+h1{
+    text-align: center;
+}
