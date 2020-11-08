@@ -1,32 +1,4 @@
-.a{
-    color: black;
-    min-height:70px;
-    position: relative;
-    z-index: 2;
-}
 
-.active{
-    font-family: Poppins;
-font-weight: 500;
-font-size: 16px;
-line-height: 24px;
-top: 38px;
-border-radius: nullpx;
-
-}
-.navbar-brand{
-font-family: Roboto;
-font-style: normal;
-font-weight: 900;
-font-size: 27px;
-line-height: 32px;
-width: 70px;
-left: 136px;
-top: 34px;
-border-radius: nullpx;
-margin-left:10% ;
-opacity: 0.6;
-}
 .justify-content-end{
     margin-right: 10%;
 }
@@ -362,6 +334,31 @@ padding-bottom: 80px;
     font-size: 36px;
     padding-top: 80px;
     text-align: center;
+    }
+    .gallery-row{
+        margin-top: 75px;
+    }
+    .gallery-row{
+        justify-content: center;
+    }
+    .gallery-card{
+
+        margin: 10px;
+    }
+    .gallery-card img{
+        width: 100%;
+height: 258px;
+    }
+    .gallery-text{
+        text-align: center;
+        font-weight: bold;
+font-size: 14px;
+color: #FFFFFF;
+letter-spacing: 0.29em;
+    }
+    .gallery-div{
+        
+        background-color: #329F5B;
     }
 @media(max-width:1200px){
     .sec-row-one{

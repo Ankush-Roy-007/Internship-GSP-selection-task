@@ -7,29 +7,50 @@
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Text:wght@100&display=swap"
         rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">  
   <script src="https://kit.fontawesome.com/29c86029a6.js" crossorigin="anonymous"></script>
 </head>
 
 <body style="overflow-x: hidden;">
-    <div class="a">
-        <nav class="navbar navbar-expand-lg navbar-light">
-            <a class="navbar-brand" href="#">LOGO</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
-                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup" style="background-color:">
-                <div class="navbar-nav">
-                    <a class="nav-item nav-link nav-individual active" href="#third-section">EPISODES<span
-                            class="sr-only">(current)</span></a>
-                    <a class="nav-item nav-link nav-individual active" href="#fourth-section">SHOPS</a>
-                    <a class="nav-item nav-link nav-individual active" href="#fifth-section">DONATE</a>
-                    <a class="nav-item nav-link nav-individual active" href="#sixth-section">ABOUT </a>
-                    <a class="nav-item nav-link nav-individual active" href="#seventh-section">SUBSCRIBE</a>
-                    <a class="nav-item nav-link nav-individual active" href="#eight-section"> CONTACT</a>
-                </div>
-            </div>
-        </nav>
+    <div>
+<!-- Navbar-->
+  <nav class="navbar navbar-expand-lg py-3 navbar-light bg-white fixed-top shadow-sm">
+    <div class="container">
+      <a href="#" class="navbar-brand">
+        <!-- Logo Image -->
+        <!-- <img
+        src="https://res.cloudinary.com/mhmd/image/upload/v1557368579/logo_iqjuay.png"
+        width="45"
+        alt=""
+        class="d-inline-block align-middle mr-2"
+      /> -->
+        <!-- Logo Text -->
+        <span class="text-uppercase font-weight-bold">Logo</span>
+      </a>
+
+      <button type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"
+        class="navbar-toggler">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div id="navbarSupportedContent" class="collapse navbar-collapse"
+        style="font-family: 'Poppins', sans-serif; color: black;">
+        <ul class="navbar-nav ml-auto">
+          <!-- <li class="nav-item active"> -->
+          <li class="nav-item">
+
+            <a href="#" class="nav-link" id="item_nav_shop">EPISODES </a>
+          </li>
+          <li class="nav-item"><a href="#" class="nav-link" id="item_nav_shop">SHOPS</a></li>
+          <li class="nav-item"><a href="#" class="nav-link" id="item_nav_shop">DONATE</a></li>
+          <li class="nav-item"><a href="#" class="nav-link" id="item_nav_shop">ABOUT</a></li>
+          <li class="nav-item"><a href="#" class="nav-link" id="item_nav_shop">SUBSCRIBE</a></li>
+          <li class="nav-item"><a href="#" class="nav-link" id="item_nav_shop">CONTACT</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
     </div>
     <div class="second-div">
         <div class="container sec-div-index">
@@ -155,8 +176,30 @@
     </div>     
 
 
-    <div class="recent gallery container">   
+    <div class="recent-gallery container">   
         <div class="recent-gallery-heading"><p>Recent Gallery</p></div>
+        <div class="gallery-row">
+            <div class="row gallery-row">
+                <div class="card gallery-card" style="width: 18rem;">
+                    <img class="card-img-top" src="img/g1.png" alt="Card image cap">
+                    <div class="card-body gallery-div">
+                      <p class="card-text gallery-text">PERFECT PITCH</p>
+                    </div>
+                  </div>
+                  <div class="card gallery-card" style="width: 18rem;">
+                    <img class="card-img-top" src="img/g2.png" alt="Card image cap">
+                    <div class="card-body gallery-div">
+                      <p class="card-text gallery-text">TYRANNOSAURUS FX</p>
+                    </div>
+                  </div>
+                  <div class="card gallery-card" style="width: 18rem;">
+                    <img class="card-img-top" src="img/g3.png" alt="Card image cap">
+                    <div class="card-body gallery-div">
+                      <p class="card-text gallery-text">NAPSTER</p>
+                    </div>
+                  </div>
+            </div>
+        </div>
     </div>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
         integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
