@@ -1,0 +1,389 @@
+.a{
+    color: black;
+    min-height:70px;
+    position: relative;
+    z-index: 2;
+}
+
+.active{
+    font-family: Poppins;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+top: 38px;
+border-radius: nullpx;
+
+}
+.navbar-brand{
+font-family: Roboto;
+font-style: normal;
+font-weight: 900;
+font-size: 27px;
+line-height: 32px;
+width: 70px;
+left: 136px;
+top: 34px;
+border-radius: nullpx;
+margin-left:10% ;
+opacity: 0.6;
+}
+.justify-content-end{
+    margin-right: 10%;
+}
+
+.second-div{
+    background-image: url(img/img1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 0;
+}
+.sec-div{
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 50px;
+    text-align: Left;
+   vertical-align: Top;
+   color: white;   
+   margin-top: 24%;
+
+}
+.sec-row{
+    margin: auto;
+}
+
+.sec-row-one{
+    width: 50%;
+    margin: auto;
+}
+
+.sec-row-one img{
+    width: 54px;
+    height: 54px;
+    padding: 4px;
+}
+.sec-row-one-img{
+    width: 60%;
+    padding-top: 15%;
+}
+.sec-div-index{
+    position: relative;
+    z-index: 1;
+    margin: auto;
+}
+.sec-div-two-head{
+    font-size: 27px;
+    height: 78px;
+width: 380px;
+left: 881px;
+top: 283px;
+border-radius: nullpx;
+font-weight: bold;
+color: white;
+}
+.sec-div-two{
+    background-color: #07C369;
+    height: 237px;
+width: 486px;
+left: 819px;
+top: 243px;
+border-radius: 25px;
+justify-content: center;
+}
+
+.sec-div-two-body{
+height: 64px;
+width: 357px;
+left: 881px;
+top: 382px;
+border-radius: nullpx;
+font-size: 16px;
+color: white;
+}
+.sec-body{
+    margin: auto;
+    width: 70%;
+    padding-top: 8%;
+}
+.sec-row-two-all{
+    padding-top: 16%;
+    margin: auto;
+}
+
+.sec-div-playbutton{
+border-radius: 100%;
+background-color: white;
+position: relative;
+width: 80.23px;
+height: 80.23px;
+top: -130px;
+left: -115px;
+}
+.playbutton{ 
+    margin-top: 25px;
+    margin-left: 28px;
+    color: #329F5B;
+    font-size: 30px;
+}
+.third-div{
+    width: 616px;
+    height: 129px;
+    background: #FFFFFF;
+box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.1);
+border-radius: 10px;
+margin: auto;
+position: relative;
+top: 65px;
+z-index: 2;
+}
+.third-para{
+    font-size: 16px;
+line-height: 24px;
+text-align: center;
+width: 554px;
+height: 57.13px;
+padding-top: 30px;
+margin: auto;
+}
+.down-arrow{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    position: relative;
+    z-index: 3;
+    box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.15);
+    margin: auto;
+    margin-top: 45px;
+    background-color: white;
+}
+.fa-chevron-down{
+    font-size: 20px;
+    position: relative;
+    top: 16px;
+    left: 16px;
+    
+}
+.trailer{
+    padding-top: 150px;
+}
+.trailer-margin{
+    margin: auto;}
+.trailer img{
+    
+    width: 571.88px;
+height: 405.06px;
+}
+.trailer-heading{
+    width: 185.31px;
+height: 54px;
+font-weight: bold;
+font-size: 36px;
+line-height: 54px;
+letter-spacing: 0.1625em;
+text-transform: uppercase;
+}
+.trailer-perfect{
+    width: 175.68px;
+height: 30px;
+font-weight: bold;
+font-size: 18px;
+line-height: 30px;
+color: #329F5B;
+text-transform: uppercase;
+}
+.trailer-content{
+    width: 467.56px;
+height: 107.22px;
+font-size: 18px;
+line-height: 27px;
+}
+.trailer-second-div{
+    margin-left:  70px;
+}
+.trailer-subscribe{
+    padding-top: 70px;
+}
+.fa-eye{
+    color: #DDDDDD;
+}
+.trailer-bell{
+padding-left: 30px;
+}
+.fa-bell{    
+    background-color: #329F5B;
+    border-radius: 100%;
+    color: white;
+    padding: 5px;
+}
+
+.current-episode-div{
+    padding-top: 60px;
+    text-align: center;
+    height: 100%;
+}
+.current-episode-heading{
+height: 55px;
+font-weight: bold;
+font-size: 36px;
+}
+.current-episode-toggle-switch{
+float: right;
+}
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 24px;
+    float: right;
+  }
+  
+  .switch input { 
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color:#D6D6D6;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 36px;
+    width: 36px;
+    left: -2px;
+    bottom: -6px;
+    background-color:#329F5B;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  input:checked + .slider {
+    background-color:#D6D6D6;
+    ;
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px :#329F5B;
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+  
+  .slider.round {
+    border-radius: 34px;
+    
+    margin-left: 5px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }
+  .autoplay{
+      float: left;
+height: 18px;
+font-weight: bold;
+font-size: 12px;
+line-height: 18px;
+  }
+.episode-list{
+border-radius: 11px;
+margin-top: 50px;
+width: 100%;
+height: 259.57px;
+display: block;
+}
+.episode-list img{
+    width: 329.36px;
+height: 259.23px;
+float: left;
+padding-right: 40px;
+border-radius: 10px;
+}
+.episode-list-content-div{
+    text-align: left;
+    padding-top: 40px;
+}
+.episode-list-heading{
+    font-weight: 800;
+font-size: 24px;
+display: inline;
+}
+.episode-list-anchor{
+    font-size: 14px;font-size: 18px;
+line-height: 27px
+}
+.episode-list-content{
+    font-size: 18px;
+    line-height: 27px;
+    width: 80%;
+height: 47px;
+color: #574848;
+padding-top: 10px;
+padding-bottom: 80px;
+}
+.fa-share{
+    padding-right: 5px;
+    
+}
+.three-dots{
+    float: right;
+    display: inline;
+    padding-right: 10px;
+    color: #329F5B;
+    cursor: pointer;
+}
+.episode-block{
+    margin-top: 20px;
+    display: inline-block;  
+    border-radius: 11px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+}
+@media(max-width:1200px){
+    .sec-row-one{
+        width: 80%;
+        text-align: center;
+    }
+    .sec-div{
+        text-align: center;
+    }
+    .sec-row-one-img{
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+    }
+    .trailer-margin{
+        justify-content: center;
+    }
+    .trailer-second-div{
+        margin-left: 0px;
+    }
+    .trailer-heading{
+        padding-top: 10px;
+    }
+    .trailer{
+        width: 100%;
+    }
+    .episode-list-content{
+        font-size: 18px;
+        line-height: 27px;
+        width: 95%;
+    color: #574848;
+    padding-top: 10px;
+    padding-bottom: 80px;
+    }    
+    ]
+}
